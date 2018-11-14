@@ -12,7 +12,7 @@
 
 }
 
-.thumnail{
+.thumbnail{
   height: 300px;
   width: 300px;
 }
@@ -23,9 +23,9 @@ body{
 
 
 .noticiasimage{
-  height: 400px;
-  width: 400px;
-  object-fit: none;
+  height: 40vh!important;
+  max-width: 50vh!important;
+  object-fit:none;
   object-position: center;
 }
 
@@ -35,6 +35,7 @@ body{
   border-style: solid;
   border-radius: 20px;
   padding: 1em;
+  align-items: center;
 }
 
 .jumbotron{
