@@ -1,11 +1,43 @@
 #logonavbar{
   height: 60px;
 }
-.noticia{
 
-
-}
 
 #slide1{
   height: 300px;
+}
+
+#banner{
+  height: 300px;
+
+}
+
+.thumnail{
+  height: 300px;
+  width: 300px;
+}
+
+body{
+  color: black;
+}
+
+
+.noticiasimage{
+  height: 400px;
+  width: 400px;
+  object-fit: none;
+  object-position: center;
+}
+
+.noticia{
+  border: 2px;
+  border-color: #e9ecef;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.jumbotron{
+  background-color: #208ccd;
+  color: white;
 }
